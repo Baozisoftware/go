@@ -360,7 +360,7 @@ var dbgvars = []dbgVar{
 
 func parsedebugvars() {
 	// defaults
-	debug.cgocheck = 1
+	debug.cgocheck = 0
 	debug.invalidptr = 1
 
 	for p := gogetenv("GODEBUG"); p != ""; {
