@@ -1,5 +1,6 @@
 # Customized info
-1. based 1.8.1 official version
+
+1. based 1.8.3 official version
 2. changed debug.cgocheck = 0 (default=1)
 
 # The Go Programming Language
