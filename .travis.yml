@@ -1,6 +1,6 @@
 language: go
 go:
-    - 1.9
+    - 1.9.1
 before_install:
     - go get github.com/tcnksm/ghr
     - go get github.com/aktau/github-release
