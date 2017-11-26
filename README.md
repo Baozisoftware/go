@@ -1,7 +1,7 @@
 # Customized info
 [![Build Status](https://travis-ci.org/Baozisoftware/go.svg?branch=master)](https://travis-ci.org/Baozisoftware/go)
 
-1. based 1.9.1 official version
+1. based 1.9.2 official version
 2. changed debug.cgocheck = 0 (default=1)
 
 [Download binary](https://github.com/Baozisoftware/go/releases/)
