@@ -3,6 +3,7 @@
 
 1. based 1.10 official version
 2. changed debug.cgocheck = 0 (default=1)
+3. disable bootstrap.bash "build tbz"
 
 [Download binary](https://github.com/Baozisoftware/go/releases/)
 
