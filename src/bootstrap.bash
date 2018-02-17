@@ -84,6 +84,8 @@ fi
 
 rm -rf pkg/bootstrap pkg/obj .git
 
+exit 0
+
 # Support for building minimal tar.gz for the builders.
 # The build system doesn't support bzip2, and by deleting more stuff,
 # they start faster, especially on machines without fast filesystems
