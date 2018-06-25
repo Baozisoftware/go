@@ -23,9 +23,8 @@ MAKE()
     if [ "$GOOS" = "windows" ]; then
         rm $B/bin/go
         rm $B/bin/gofmt
-	fi
-	T=$B.tbz
-	if [ -e $T ] && [ -d $B ]; then
+    fi
+    if [ -d $B ]; then
         Z=$N.zip
         D=../../tmp/go
         mkdir $D
