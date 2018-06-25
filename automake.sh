@@ -34,7 +34,6 @@ MAKE()
         cd $C
         rm -rf $D
         rm -rf $B
-        rm $T
     fi
 }
 
