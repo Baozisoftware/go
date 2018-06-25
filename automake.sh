@@ -16,6 +16,7 @@ MAKE()
     export GOARCH=$GOARCH
     ./bootstrap.bash
     B=../../go-$GOOS-$GOARCH-bootstrap
+    echo `ls $B`
     N=$V.$GOOS-$GOARCH
     rm $B/automake.sh
     rm $B/.travis.yml
@@ -30,7 +31,6 @@ MAKE()
         mkdir $D
         mv $B/* $D/
         cd ../../tmp
-	echo `ls`
         zip -q -9 -r ../releases/$Z go/*
         cd $C
         rm -rf $D
