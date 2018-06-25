@@ -1,7 +1,7 @@
 # Customized info
 [![Build Status](https://travis-ci.org/Baozisoftware/go.svg?branch=master)](https://travis-ci.org/Baozisoftware/go)
 
-1. based 1.10 official version
+1. based 1.10.3 official version
 2. changed debug.cgocheck = 0 (default=1)
 3. disable bootstrap.bash "build tbz"
 
