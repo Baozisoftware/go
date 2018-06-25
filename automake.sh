@@ -35,7 +35,6 @@ MAKE()
         rm -rf $D
         rm -rf $B
         rm $T
-	ls ../releases/
     fi
 }
 
