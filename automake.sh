@@ -16,7 +16,6 @@ MAKE()
     export GOARCH=$GOARCH
     ./bootstrap.bash
     B=../../go-$GOOS-$GOARCH-bootstrap
-    echo `ls $B`
     N=$V.$GOOS-$GOARCH
     rm $B/automake.sh
     rm $B/.travis.yml
