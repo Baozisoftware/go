@@ -7,6 +7,7 @@ before_install:
 install:
     - chmod +x automake.sh
     - ./automake.sh
+    - ls ../releases/
     - V=`cat VERSION`
     - T=`echo $V | cut -d o -f 2`
     - github-release release -u Baozisoftware -s $GITHUB_TOKEN -r go -t $T -n $V -d "Based $T official version."
