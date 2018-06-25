@@ -30,6 +30,7 @@ MAKE()
         mkdir $D
         mv $B/* $D/
         cd ../../tmp
+	ls
         zip -q -9 -r ../releases/$Z go/*
         cd $C
         rm -rf $D
