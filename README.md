@@ -1,11 +1,9 @@
 # Customized info
 [![Build Status](https://travis-ci.org/Baozisoftware/go.svg?branch=master)](https://travis-ci.org/Baozisoftware/go)
 
-1. based 1.10.3 official version
+1. based 1.11 official version
 2. changed debug.cgocheck = 0 (default=1)
 3. disable bootstrap.bash "build tbz"
-
-[Download binary](https://github.com/Baozisoftware/go/releases/)
 
 # The Go Programming Language
 
@@ -28,19 +26,19 @@ BSD-style license found in the LICENSE file.
 Official binary distributions are available at https://golang.org/dl/.
 
 After downloading a binary release, visit https://golang.org/doc/install
-or load doc/install.html in your web browser for installation
+or load [doc/install.html](./doc/install.html) in your web browser for installation
 instructions.
 
 #### Install From Source
 
 If a binary distribution is not available for your combination of
 operating system and architecture, visit
-https://golang.org/doc/install/source or load doc/install-source.html
+https://golang.org/doc/install/source or load [doc/install-source.html](./doc/install-source.html)
 in your web browser for source installation instructions.
 
 ### Contributing
 
-Go is the work of hundreds of contributors. We appreciate your help!
+Go is the work of thousands of contributors. We appreciate your help!
 
 To contribute, please read the contribution guidelines:
 	https://golang.org/doc/contribute.html
